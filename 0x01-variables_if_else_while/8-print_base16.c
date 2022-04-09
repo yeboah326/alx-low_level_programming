@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-int n = 0;
-char c = 'a';
-for (n; n < 10; n++)
+int n;
+char c;
+for (n = 0; n < 10; n++)
 putchar(48 + n);
-for (c; c <= 'f'; c++)
+for (c = 'a'; c <= 'f'; c++)
 putchar(c);
 putchar('\n');
 return (0);
