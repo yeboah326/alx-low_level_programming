@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * _islower - A function that returns 1 when c is lowercase
  * or 0 when c is not lowercase

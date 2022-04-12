@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet - A function that prints the alphabets followed by a new line
  * Return: 0

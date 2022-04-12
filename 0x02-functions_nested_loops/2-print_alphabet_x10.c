@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet_x10 - A function that prints the ten times the alphabets
  * followed by a new line
