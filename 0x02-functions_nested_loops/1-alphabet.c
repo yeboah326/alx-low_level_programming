@@ -6,19 +6,10 @@
 void print_alphabet(void)
 {
 int alpha = 97;
-for (alpha; alpha <= 122; alpha++)
+while (alpha <= 122)
 {
 _putchar(alpha);
+alpha++;
 }
 _putchar('\n');
-}
-
-/**
- * main - A function that runs the print_alphabet function
- * Return: 0
- */
-int main(void)
-{
-print_alphabet();
-return (0);
 }
