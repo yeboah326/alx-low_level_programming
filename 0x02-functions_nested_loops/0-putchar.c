@@ -7,7 +7,7 @@ int main(void)
 {
 char str[8] = "_putchar";
 int letter = 0;
-while (letter <= 8)
+while (letter <= 7)
 {
 _putchar(str[letter]);
 letter++;
