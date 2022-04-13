@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "========= Betty Linter ========="
+betty $1.c
+echo "========= GCC ========="
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c $1.c -o $1
