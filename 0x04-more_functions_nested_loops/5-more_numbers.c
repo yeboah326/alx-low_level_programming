@@ -12,7 +12,7 @@ while (loop--)
 {
 while (num < 15)
 {
-if (num > 10)
+if (num >= 10)
 _putchar('0' + 1);
 _putchar('0' + num % 10);
 num++;
