@@ -44,5 +44,19 @@ print_diagonal(2);
 print_diagonal(10);
 print_diagonal(-4);
 
+printf("\n8-print_square.c\n");
+print_square(2);
+print_square(10);
+print_square(0);
+
+printf("\n9-fizz_buzz.c\n");
+fizz_buzz();
+
+printf("10=print-triangle.c\n");
+print_triangle(2);
+print_triangle(10);
+print_triangle(1);
+print_triangle(0);
+
 return (0);
 }
