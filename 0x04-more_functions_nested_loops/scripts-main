@@ -4,7 +4,7 @@ betty main.c
 echo -e '\n'
 
 echo "++++++++++++++ GCC ++++++++++++++"
-gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-isupper.c main.c -o main
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 *.c -o main
 echo -e '\n'
 
 echo "++++++++++++ Run Code +++++++++++"
