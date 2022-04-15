@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_triangle - function that prints a triangle,
- *  followed by a new line
+ * followed by a new line
  *
  * @size: size of the triangle
  */
@@ -14,7 +14,10 @@ int space = size - 1;
 int temp_space = space;
 
 if (size <= 0)
+{
 size = 0;
+_putchar('\n');
+}
 
 while (size--)
 {
