@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "+++++++++ Betty Linter +++++++++"
+betty main.c
+echo -e '\n'
+
+echo "++++++++++++++ GCC ++++++++++++++"
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-isupper.c main.c -o main
+echo -e '\n'
+
+echo "++++++++++++ Run Code +++++++++++"
+./main
+echo -e '\n'
+
+echo "++++++++++ Delete File ++++++++++"
+rm main & echo 'Done'
+echo -e '\n'
