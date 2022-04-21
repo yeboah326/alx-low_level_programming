@@ -1,0 +1,1 @@
+A directory containing scripts about pointers and arrays in c
