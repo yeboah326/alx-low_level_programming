@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "+++++++++ Betty Linter +++++++++"
+betty ./$1.c
+
+echo "++++++++++++++ GCC +++++++++++++"
+
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-memset.c 1-memcpy.c 2-strchr.c 3-strspn.c 4-strpbrk.c 5-strstr.c 7-print_chessboard.c 8-print_diagsums.c "${1:0:1}"-main.c -o "${1:0:1}"-main
+
+echo "++++++++++++ Run Code +++++++++++"
+./"${1:0:1}"-main
