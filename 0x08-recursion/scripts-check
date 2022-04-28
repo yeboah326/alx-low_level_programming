@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "+++++++++ Betty Linter +++++++++"
+betty ./$1.c
+
+echo "++++++++++++++ GCC +++++++++++++"
+
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-puts_recursion.c 1-print_rev_recursion.c 2-strlen_recursion.c 3-factorial.c 4-pow_recursion.c 5-sqrt_recursion.c 6-is_prime_number.c "${1:0:1}"-main.c -o "${1:0:1}"-main
+
+echo "++++++++++++ Run Code +++++++++++"
+./"${1:0:1}"-main
